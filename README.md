@@ -1,10 +1,10 @@
-# valentine
+# MLove Project
 
-> A Valentine project for mylove
+> A Valentine project for my love
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -18,4 +18,32 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Custom your message
+
+1. Music
+   Change iframe of your music at line 3 in `src/App.vue`
+
+```
+<iframe width="0" height="0" src="https://www.youtube.com/embed/taNXwSP7Zqs?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=true" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+```
+
+> Recommend set width & height of the iframe to 0.
+
+2. Envelope message
+   Change at line 39 in `src/components/Envelope.vue`
+
+```
+msg: "I love Mun",
+```
+
+3. Valentine card title, message
+   Change at line 37, 38 in `src/components/ValentineCard.vue`
+
+```
+title: "M ❤ M",
+msg: "Happy Valentines Day"
+```
+
+## Contact
+
+> SangND - [Facebook](https://www.facebook.com/dacsang97) - [Gmail](mailto:dacsang97@gmail.com)

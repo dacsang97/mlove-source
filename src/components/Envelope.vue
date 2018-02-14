@@ -34,7 +34,6 @@
 
 <script>
 export default {
-  name: "HelloWorld",
   data() {
     return {
       msg: "I love Mun",

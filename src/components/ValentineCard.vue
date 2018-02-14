@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="card">
-      <center><h1>M ❤ M</h1></center>
+      <center><h1>{{ title }}</h1></center>
       <div class="heart" id="heart1">
         <div id="half1">
           <div id="circle"></div>
@@ -13,7 +13,7 @@
         </div>
       </div>
       <div id="message">
-        <h2>Happy Valentines Day</h2>
+        <h2>{{ msg }}</h2>
       </div>
       <div class="heart" id="heart2">
         <div id="half1">
@@ -29,6 +29,18 @@
     <router-link to="/story">Our story</router-link>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      title: "M ❤ M",
+      msg: "Happy Valentines Day"
+    };
+  }
+};
+</script>
+
 
 <style scoped>
 a {
